@@ -1,0 +1,514 @@
+.booking_form {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  padding: 65px 40px;
+}
+
+.form-title>h2,
+.select-room-title>h3,
+h3.s_room_title {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.booking_form .form-title>h2,
+.select-room-title>h3 {
+  font-weight: bold;
+}
+
+.form-title>h2,
+.select-room-title>h3,
+.form-title>p,
+.select-room-title>p,
+.room-social-share>p,
+.room-social-share>h3,
+.need-help>h3,
+.room-sub-desc h3 span,
+.room-sub-desc>h4,
+.room-sub-desc>h3,
+.room-rent-desc .roome-rent-title,
+.need-help>h4,
+.room-social-share .social-links>a,
+h3.s_room_title {
+  color: #6a6a6a;
+}
+
+.form-title>p,
+.room-social-share>p,
+.select-room-title>p {
+  font-weight: 300;
+}
+
+.form-title>p {
+  margin-bottom: 35px;
+}
+
+.room-social-share p {
+  margin-bottom: 15px;
+}
+
+.select-room-title>p {
+  margin-bottom: 20px;
+}
+
+.booking-box1 .booking-filed,
+.booking-box2 .b_date,
+.booking-box3 .select_book,
+.booking-box3 .select_book {
+  float: left;
+  padding-left: 30px;
+  width: 50%;
+}
+
+.booking-box1 .booking-filed:first-child,
+.booking-box2 .b_date:first-child,
+.booking-box3 .select_book:first-child,
+.booking-box3 .select_book:first-child {
+  padding-left: 0;
+}
+
+.booking-box1 .booking-filed input,
+.booking-box2 .b_date input,
+.booking-box3 .select_book select,
+.room-booking-box .select-book select,
+.single-form-part .name input,
+.single-form-part .select-option select,
+.single-form-part .mail input,
+.request-box textarea,
+.payment-form-list .single_form input,
+.single_form .select-date>select {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  color: #b3b3b3;
+  height: 40px;
+}
+
+.booking-box2 .b_date {
+  position: relative;
+}
+
+.booking-box2 .b_date i {
+  color: #bbb;
+  position: absolute;
+  right: 12px;
+  top: 16px;
+}
+
+.room-booking-box .booking-comment textarea {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  color: #bababa;
+  height: 150px;
+  resize: none;
+  text-transform: capitalize;
+}
+
+.room-booking-box .submit-form>button {
+  background: #3ac4fa none repeat scroll 0 0;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+
+.room-booking-box .submit-form>button:hover {
+  background: #4a4a4a none repeat scroll 0 0;
+}
+
+.select_book>select,
+.select-date>select {
+  -moz-appearance: none;
+}
+
+.booking-box3 .select_book,
+.booking-form-list .single-form-part .select-option,
+.single_form .select-date {
+  position: relative;
+}
+
+.booking-box3 .select_book::before,
+.room-booking-box .select-book.room:before,
+.booking-form-list .single-form-part .select-option:before,
+.single_form .select-date:before {
+  color: #bababa;
+  content: "";
+  font-family: FontAwesome;
+  font-size: 22px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.selcted-room {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  padding: 65px 45px 168px 40px;
+}
+
+.room-rent .room-rent-img {
+  float: left;
+  padding-right: 4px;
+  width: 40%;
+}
+
+.room-rent-desc .roome-rent-title {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.room-sub-desc>h4,
+.room-sub-desc>h3 {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.room-sub-desc h3 span {
+  font-size: 14px;
+}
+
+.room-rent-desc {
+  float: left;
+  padding-left: 16px;
+  width: 60%;
+}
+
+.room-sub-desc>h3 {
+  color: #3ac4fa;
+}
+
+.room-rent-img>img {
+  border: 1px solid #3ac4fa;
+}
+
+.need-help>h3 {
+  margin-bottom: 15px;
+}
+
+.room-social-share>h3,
+.need-help>h3 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.room-social-share .social-links>a {
+  border: 1px solid;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 12px;
+  height: 22px;
+  line-height: 20px;
+  text-align: center;
+  width: 22px;
+}
+
+.room-social-share .social-links>a:hover {
+  color: #fff;
+  background: #3ac4fa;
+  border-color: #3ac4fa
+}
+
+.need-help>h4 {
+  font-weight: bold;
+}
+
+.need-help>h4 span {
+  font-weight: 300;
+}
+
+/*----------------
+   27. Room booking information
+--------------------*/
+.booking-rooms-tab ul li {
+  display: inline-block;
+  margin-left: 24px;
+  position: relative;
+}
+
+.booking-rooms-tab ul li.active a,
+.booking-rooms-tab ul li a:hover {
+  background: #3ac4fa none repeat scroll 0 0;
+}
+
+.booking-rooms-tab ul li.active a,
+.booking-rooms-tab ul li a:hover {
+  color: #fff
+}
+
+.booking-rooms-tab ul {
+  border-bottom: 8px solid #f1f1f1;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.booking-rooms-tab ul li.active::before {
+  background: #3ac4fa none repeat scroll 0 0;
+  bottom: -23px;
+  content: "";
+  height: 8px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.booking-rooms-tab ul li:first-child {
+  margin-left: 0
+}
+
+.booking-rooms-tab ul li a {
+  background: #f1f1f1 none repeat scroll 0 0;
+  color: #6a6a6a;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 27px 40px 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.booking-rooms-tab ul li a span.tab-border {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #6a6a6a;
+  display: inline-block;
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 17px;
+  text-align: center;
+  width: 30px;
+}
+
+.booking-rooms-tab ul li a span {
+  display: block;
+}
+
+.single-room-details .room-img {
+  float: left;
+  width: 15%;
+}
+
+.single-room-details .single-room-details {
+  float: left;
+  width: 85%;
+}
+
+.room_price h4,
+.room_price h5 {
+  font-size: 18px;
+  margin: 0;
+  color: #6a6a6a
+}
+
+.room_price h5 span {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.single-room-details .room_price>p {
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: 13px;
+}
+
+.single-room-booking-form {
+  background: #3ac4fa none repeat scroll 0 0;
+  padding: 45px 158px;
+}
+
+.booking_form_inner .single-form-part {
+  display: inline-block;
+  padding-left: 18px;
+  width: 33%;
+}
+
+.booking_form_inner .single-form-part:first-child {
+  padding-left: 0;
+}
+
+.single-form-part .date-to input,
+.single-form-part .select-option select {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.single-form-part .select-option select option {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+
+.single-form-part .select-option select {
+  -moz-appearance: none;
+}
+
+.booking_form_inner .submit-form>button:hover {
+  background: #fff none repeat scroll 0 0;
+  color: #555;
+}
+
+.single-form-part .date-to,
+.single-form-part .select-option {
+  position: relative
+}
+
+.single-form-part .date-to i {
+  color: #fff;
+  position: absolute;
+  right: 15px;
+  top: 16px;
+}
+
+.single-form-part .date-to i {
+  color: #fff;
+  position: absolute;
+  right: 15px;
+  top: 16px;
+}
+
+.single-form-part .select-option::before {
+  color: #fff;
+  content: "";
+  font-family: FontAwesome;
+  font-size: 22px;
+  position: absolute;
+  right: 16px;
+  top: 12px;
+}
+
+.booking-form-list .single-form-part .select-option select {
+  border-color: #ddd;
+  color: #b3b3b3;
+}
+
+.single-form-part .select-option select option {
+  color: #6a6a6a;
+}
+
+.single-form-part .mail {
+  position: relative;
+}
+
+.single-form-part .mail i {
+  color: #6a6a6a;
+  position: absolute;
+  right: 12px;
+  top: 16px;
+}
+
+.request-box textarea {
+  height: 150px;
+  padding: 15px;
+  resize: none;
+}
+
+.prve-next-box .back-link {
+  display: inline-block;
+}
+
+.prve-next-box .back-link a,
+.prve-next-box button,
+.pay-order>button {
+  background: #4a4a4a none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  padding: 12px 30px;
+  text-transform: uppercase;
+}
+
+.prve-next-box button:hover,
+.pay-order>button:hover {
+  background: #4a4a4a none repeat scroll 0 0;
+}
+
+.prve-next-box .back-link a:hover {
+  background: #3ac4fa
+}
+
+.prve-next-box button,
+.pay-order>button {
+  background: #3ac4fa none repeat scroll 0 0;
+  border: medium none;
+  display: inline-block;
+  margin-left: 25px;
+  transition: all 0.3s ease 0s;
+}
+
+.booking-form-list .single-form-part {
+  display: inline-block;
+  padding-left: 30px;
+  width: 33.1%;
+}
+
+.booking-form-list .single-form-part:first-child {
+  padding-left: 0;
+}
+
+.payment-form-list .single_form {
+  display: inline-block;
+  width: 24.7%;
+}
+
+.payment-form-list .single_form {
+  padding-left: 15px;
+}
+
+.payment-form-list .single_form:first-child {
+  padding-left: 0;
+}
+
+.pay-order {
+  float: right;
+}
+
+.pay-money-form .payment-card,
+.pay-order {
+  display: inline-block;
+}
+
+.booking-done-table {
+  float: left;
+  padding-right: 30px;
+  width: 50%;
+}
+
+.booking-done-description {
+  float: left;
+  padding-left: 30px;
+  width: 50%;
+}
+
+.booking-done-table table {
+  border: 1px solid #ddd;
+}
+
+.booking-done-table table tr:first-child td {
+  border-right: 1px solid #ddd;
+}
+
+.booking-done-description>p {
+  color: #ababab;
+  font-weight: 500;
+  margin-right: 147px;
+}
+
+.succesfully strong {
+  color: #3ac4fa;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.booking-done-table .table p {
+  color: #686868;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 20px 0 10px;
+  text-transform: capitalize;
+}
+
+.booking-done-table .table p span {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+}
